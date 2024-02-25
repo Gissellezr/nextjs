@@ -32,10 +32,10 @@ export default function Home() {
         </div>
 
         {/* Navigation Menu */}
-        <div className="flex flex-col mt-16 sm:flex-row sm:items-center sm:justify-center ">
-          <button className="px-4 py-2 mb-4 sm:mb-0 sm:mr-4 rounded-md text-xl font-light hover:font-semibold">About</button>
-          <button className="px-4 py-2 mb-4 sm:mb-0 sm:mx-40 rounded-md text-xl font-light hover:font-semibold">Work</button>
-          <button className="px-4 py-2 sm:ml-4 rounded-md text-xl font-light hover:font-semibold">Contact</button>
+        <div className="flex flex-col mt-16 sm:flex-row sm:items-center  ">
+          <button className="px-4 py-2 mb-4 sm:mb-0 sm:mr-4 rounded-md text-2xl font-light hover:font-semibold">About</button>
+          <button className="px-4 py-2 mb-4 sm:mb-0 sm:mx-40 rounded-md text-2xl font-light hover:font-semibold">Work</button>
+          <button className="px-4 py-2 sm:ml-4 rounded-md text-2xl font-light hover:font-semibold">Contact</button>
         </div>
 
 
