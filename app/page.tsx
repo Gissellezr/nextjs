@@ -20,20 +20,25 @@ export default function Home() {
               priority
             />
           </div>
-          {/* Text */}
-          <div className="mt-[-140px] transform translate-x-20 z-10">
+          
+          {/* Text*/}
+          {/* <div className="mt-[-140px] transform translate-x-20 z-10 mb-10 sm:mb-5">
             <h1 className="text-3xl font-light text-gray-500">
               Visual Designer
             </h1>
-          </div>
+          </div> */}
+
+
         </div>
 
-        {/* Buttons */}
-        <div className="flex justify-center mt-16">
-          <button className="px-4 py-2 mr-4 rounded-md text-xl font-light hover:font-semibold">About</button>
-          <button className="px-4 py-2 mx-40 rounded-md text-xl font-light hover:font-semibold">Work</button>
-          <button className="px-4 py-2 ml-4 rounded-md text-xl font-light hover:font-semibold">Contact</button>
+        {/* Navigation Menu */}
+        <div className="flex flex-col mt-16 sm:flex-row sm:items-center sm:justify-center ">
+          <button className="px-4 py-2 mb-4 sm:mb-0 sm:mr-4 rounded-md text-xl font-light hover:font-semibold">About</button>
+          <button className="px-4 py-2 mb-4 sm:mb-0 sm:mx-40 rounded-md text-xl font-light hover:font-semibold">Work</button>
+          <button className="px-4 py-2 sm:ml-4 rounded-md text-xl font-light hover:font-semibold">Contact</button>
         </div>
+
+
       </section>
     </main>
   );
